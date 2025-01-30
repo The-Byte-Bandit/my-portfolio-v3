@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Iceland&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: linear-gradient(to bottom left,  black, #2C0F14); */
+  background: radial-gradient(circle at top right, #2C0F14, black 20%);
+  min-height: 100vh; /* Ensures it covers the full viewport height */
+  margin: 0;
+}
+
+.d1 {
+  /* background: linear-gradient(to bottom left,  black, #2C0F14); */
+  background: radial-gradient(circle at top right, #2C0F14, black 100%);
+}
+
+
+
+.iceland-regular {
+  font-family: "Iceland", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-red{
+  color: #E84A4A;
+}
+
+.text-grey{
+  color:#7A7A77;
+}
+
+.big-shoulders-display{
+  font-family: "Big Shoulders Display", serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+
+.letter-spacing-10 {
+  letter-spacing: 0.25rem; /* or -4px, -0.25rem */
+}
+
+
