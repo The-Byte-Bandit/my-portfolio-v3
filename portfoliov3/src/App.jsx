@@ -5,7 +5,10 @@ import Home from './pages/home';
 
 function App() {
   return (
-    <Home/>
+    <div className='min-w-'>
+      <Home/>
+    </div>
+    
   );
 }
 

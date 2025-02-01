@@ -11,10 +11,20 @@
 
 body {
   /* background: linear-gradient(to bottom left,  black, #2C0F14); */
-  background: radial-gradient(circle at top right, #2C0F14, black 20%);
+  background: radial-gradient(circle at top right, #2C0F14, black 8%);
   min-height: 100vh; /* Ensures it covers the full viewport height */
   margin: 0;
 }
+
+@media (min-width: 768px) {
+  body {
+    /* background: linear-gradient(to bottom left,  black, #2C0F14); */
+    background: radial-gradient(circle at top right, #2C0F14, black 20%);
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+    margin: 0;
+  }
+}
+
 
 .d1 {
   /* background: linear-gradient(to bottom left,  black, #2C0F14); */
@@ -49,10 +59,42 @@ body {
 }
 
 
+.swiper-pagination {
+  align-items: center;
+}
+
+/* Active pagination dot color */
+.swiper-pagination-bullet-active {
+  background-color: #E84A4A !important;
+}
+
+/* Inactive pagination dot color */
+.swiper-pagination-bullet {
+  background-color: #555 !important;
+  opacity: 0.6;
+}
+
+/* Hover effect for pagination dots */
+.swiper-pagination-bullet:hover {
+  opacity: 1;
+}
+.swiper-button-prev, .swiper-button-next{
+  color: #e84a4a6f !important;
+}
+
+
+.angled-image {
+  transform: rotateY(20deg) rotateX(10deg) skew(-10deg, 0deg); /* Apply transformations */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for depth */
+}
+
 
 .fade-in {
   animation: fadeIn 0.5s ease-in-out;
 }
+
+
 
 @keyframes fadeIn {
   from {
