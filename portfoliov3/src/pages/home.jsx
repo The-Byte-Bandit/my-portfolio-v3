@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { union, bluetooth, bg, scifi, f2, linkedIn, twitter, instagram, monitor } from '../constants/constant';
+import { union, viel, ulearn, swiphr, brightspace, bg,m2l, scifi, f2, linkedIn, twitter, instagram, monitor } from '../constants/constant';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -10,27 +10,44 @@ const projects = [
   {
     title: "Swiphr Vendor Dashboard",
     category: "React Website",
-    description: "Built this website with multiple routers, UI elements, and tricky styling.",
-    image: "/path-to-arze-image.png",
-    link: "#",
-    date: "Published 3 months ago",
+    description: "CMS dashboard for eCommerce management.",
+    image: swiphr,
+    link: "https://lamar-pi.vercel.app/home/dashboard",
+    date: "Published 1 Year ago",
   },
   {
     title: "Viel Dashboard",
     category: "React Website",
-    description: "Developed a modern, interactive UI for an eCommerce platform.",
-    image: "/path-to-vermillion-image.png",
+    description: "UI for crypto and gift card trading.",
+    image: viel,
     link: "#",
+    date: "Published 2 months ago",
+  },
+  {
+    title: "Brightspace",
+    category: "React Website",
+    description: "Landing page for a retirement firm.",
+    image: brightspace,
+    link: "https://bright-space.vercel.app/",
+    date: "Published 4 months ago",
+  },
+  {
+    title: "Ulearn",
+    category: "React Website",
+    description: "Mockup for an e-learning platform.",
+    image: ulearn,
+    link: "https://ulearn-omega.vercel.app/",
     date: "Published 3 months ago",
   },
   {
-    title: "Thunderfoot",
+    title: "Men2leader Dashboard",
     category: "React Website",
-    description: "Designed and implemented a fully responsive agency website.",
-    image: "/path-to-thunderfoot-image.png",
-    link: "#",
+    description: "Responsive dashboard for analytics and content.",
+    image: m2l,
+    link: "https://men2leaders.vercel.app/",
     date: "Published 3 months ago",
   },
+  
 ];
 
 function Home() {
@@ -50,6 +67,31 @@ function Home() {
   const handleNavClick = (navItem) => {
     setActiveNav(navItem);
   };
+
+
+  // Create floating dots
+  useEffect(() => {
+    const dotsContainer = document.createElement('div');
+    dotsContainer.classList.add('dots-container');
+    document.body.appendChild(dotsContainer);
+
+    const numberOfDots = 20; // Adjust the number of dots as needed
+
+    for (let i = 0; i < numberOfDots; i++) {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      dot.style.left = `${Math.random() * 100}%`;
+      dot.style.top = `${Math.random() * 100}%`;
+      dot.style.animationDuration = `${Math.random() * 5 + 2}s`; // Randomize animation duration
+      dotsContainer.appendChild(dot);
+    }
+
+    return () => {
+      document.body.removeChild(dotsContainer);
+    };
+  }, []);
+  
+  
 
   const experiences = [
     {
@@ -188,14 +230,24 @@ function Home() {
                           <p className="text-[#7A7A7A] text-sm uppercase">{project.category}</p>
                           <p className="text-[#7A7A7A] text-xs mt-2">{project.description}</p>
                           {/* View Live Button */}
-                          <a
-                            href={project.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
-                          >
-                            View Live
-                          </a>
+                          {project.link === "#" ? (
+  <p
+    className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
+  >
+    Unavailable
+  </p>
+) : (
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
+  >
+    View Live
+  </a>
+)}
+
+                          
                         </div>
                       </div>
                     </SwiperSlide>
@@ -286,6 +338,49 @@ function Home() {
 
   return (
     <div className='text-white md:p-[24px] p-4 iceland-regular w-full'>
+          {/* Floating Dots Container */}
+                {/* Floating Dots Container */}
+      <style>
+        {`
+          .dots-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+            overflow: hidden;
+          }
+
+          .dot {
+            position: absolute;
+            background-color: red;
+            border-radius: 50%;
+            box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+            animation: float linear infinite;
+          }
+
+          @keyframes float {
+            0% {
+              transform: translate(0, 0);
+            }
+            25% {
+              transform: translate(200px, 150px);
+            }
+            50% {
+              transform: translate(400px, 0);
+            }
+            75% {
+              transform: translate(200px, -150px);
+            }
+            100% {
+              transform: translate(0, 0);
+            }
+          }
+        `}
+      </style>
+      
       <div className='w-full flex justify-between items-center'>
         <div>
           {/* Logo */}
@@ -509,20 +604,29 @@ function Home() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-[280px] object-cover transition-opacity duration-300"
+              className="w-full h-[280px] object-contain transition-opacity duration-300"
             />
             <div className="mt-4 text-center">
               <h3 className="text-[#E84A4A] font-semibold text-lg">{project.title}</h3>
               <p className="text-[#7A7A7A] text-sm uppercase">{project.category}</p>
               <p className="text-[#7A7A7A] text-xs mt-2">{project.description}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
-              >
-                View Live
-              </a>
+              {project.link === "#" ? (
+  <p
+    className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
+  >
+    Unavailable
+  </p>
+) : (
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
+  >
+    View Live
+  </a>
+)}
+
             </div>
           </div>
         </SwiperSlide>

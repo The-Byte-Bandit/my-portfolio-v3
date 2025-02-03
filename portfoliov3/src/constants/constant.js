@@ -7,6 +7,11 @@ import linkedIn from '../assets/images/linkedin.svg'
 import twitter from '../assets/images/twitter.svg'
 import instagram from '../assets/images/instagram.svg'
 import monitor from '../assets/images/monitor.png'
+import brightspace from '../assets/images/brightspace.png'
+import swiphr from '../assets/images/swiphr.png'
+import ulearn from '../assets/images/ulearn.png'
+import viel from '../assets/images/viel.png'
+import m2l from '../assets/images/m2l.png'
 
 export {
     union,
@@ -18,4 +23,9 @@ export {
     twitter,
     instagram,
     monitor,
+    viel,
+    ulearn,
+    swiphr,
+    brightspace,
+    m2l,
 }
