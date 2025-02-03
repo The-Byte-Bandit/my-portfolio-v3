@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 const projects = [
   {
-    title: "ARZE",
+    title: "Swiphr Vendor Dashboard",
     category: "React Website",
     description: "Built this website with multiple routers, UI elements, and tricky styling.",
     image: "/path-to-arze-image.png",
@@ -16,7 +16,7 @@ const projects = [
     date: "Published 3 months ago",
   },
   {
-    title: "Vermillion",
+    title: "Viel Dashboard",
     category: "React Website",
     description: "Developed a modern, interactive UI for an eCommerce platform.",
     image: "/path-to-vermillion-image.png",
