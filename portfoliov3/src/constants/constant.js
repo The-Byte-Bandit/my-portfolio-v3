@@ -12,6 +12,8 @@ import swiphr from '../assets/images/swiphr.png'
 import ulearn from '../assets/images/ulearn.png'
 import viel from '../assets/images/viel.png'
 import m2l from '../assets/images/m2l.png'
+import truescan from '../assets/images/truescan.png'
+
 
 export {
     union,
@@ -28,4 +30,5 @@ export {
     swiphr,
     brightspace,
     m2l,
+    truescan,
 }
