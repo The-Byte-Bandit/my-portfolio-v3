@@ -737,7 +737,7 @@ const projects = [
     description: "UI for crypto and gift card trading.",
     image: viel,
     link: "#",
-    date: "Published 2 months ago",
+    date: "Published 5 months ago",
   },
   {
     title: "Brightspace",
@@ -745,7 +745,7 @@ const projects = [
     description: "Landing page for a retirement firm.",
     image: brightspace,
     link: "https://bright-space.vercel.app/",
-    date: "Published 4 months ago",
+    date: "Published 7 months ago",
   },
   {
     title: "Ulearn",
@@ -753,7 +753,7 @@ const projects = [
     description: "Mockup for an e-learning platform.",
     image: ulearn,
     link: "https://ulearn-omega.vercel.app/",
-    date: "Published 3 months ago",
+    date: "Published 6 months ago",
   },
   {
     title: "Men2leader Dashboard",
@@ -761,7 +761,7 @@ const projects = [
     description: "Responsive dashboard for analytics and content.",
     image: m2l,
     link: "https://men2leaders.vercel.app/",
-    date: "Published 3 months ago",
+    date: "Published 6 months ago",
   },
 ];
 
