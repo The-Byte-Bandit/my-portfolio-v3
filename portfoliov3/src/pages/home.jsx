@@ -136,7 +136,7 @@
 //         return (
 //           <div className="fade-in hidden md:flex flex-col w-full h-full">
 //             <h5 className="text-white text-[18px] text-center">WELCOME TO MY PERSONAL WEBSITE.</h5>
-//             <p className="text-[#7A7A7A] mt-4 text-center">
+//             <p className="text-[#cfcfcf] mt-4 text-center">
 //               I have created this website to feel like a game/sci-fi interface. All text inside
 //               tries to reflect this.
 //             </p>
@@ -150,10 +150,10 @@
 //                 <h5 className="text-white text-[18px]">
 //                   WELCOME TO MY PERSONAL WEBSITE.
 //                 </h5>
-//                 <p className="text-[#7A7A7A] mt-4">
+//                 <p className="text-[#cfcfcf] mt-4">
 //   I am a proactive and detail-oriented web developer and software engineer with expertise in front-end and back-end technologies, including React.js, Python, TypeScript, and Flutter. I specialize in building modern, responsive user interfaces using frameworks like Tailwind CSS and Redux, while optimizing performance and integrating secure web practices.
 // </p>
-// <p className="text-[#7A7A7A] mt-2">
+// <p className="text-[#cfcfcf] mt-2">
 //   With experience in database management (MongoDB, PostgreSQL), RESTful APIs, and version control (Git, GitHub), I excel at solving complex engineering challenges and delivering scalable, maintainable applications. My strong communication and organizational skills ensure successful project delivery and effective cross-functional collaboration.
 // </p>
 //               </div>
@@ -165,7 +165,7 @@
 //         return (
 //           <div className="hidden md:block fade-in">
 //             <h5 className='text-center text-[18px]'>Experience</h5>
-//             <p className='text-center opacity-70 text-[#7A7A7A]'>
+//             <p className='text-center opacity-70 text-[#cfcfcf]'>
 //               Explore my professional background, skills, and the roles that have shaped my expertise.
 //             </p>
 //             <div className="space-y-6">
@@ -227,8 +227,8 @@
 //                         {/* Text Content */}
 //                         <div className="mt-4 text-center">
 //                           <h3 className="text-[#E84A4A] font-semibold text-lg">{project.title}</h3>
-//                           <p className="text-[#7A7A7A] text-sm uppercase">{project.category}</p>
-//                           <p className="text-[#7A7A7A] text-xs mt-2">{project.description}</p>
+//                           <p className="text-[#cfcfcf] text-sm uppercase">{project.category}</p>
+//                           <p className="text-[#cfcfcf] text-xs mt-2">{project.description}</p>
 //                           {/* View Live Button */}
 //                           {project.link === "#" ? (
 //   <p
@@ -274,7 +274,7 @@
 //                 <div className="relative z-10 flex flex-1 items-center justify-center h-full px-6">
 //                   <form className="w-full max-w-2xl max-h-max h-full bg-[#290a0ad2] bg-opacity-90 p-6 rounded-lg shadow-lg border border-[#E84A4A]">
 //                     <h2 className="text-[18px] mb-1 uppercase text-left">Connect with me</h2>
-//                     <p className="text-[#7A7A7A] mb-4 text-left">Wanna chat? Or just share something cool?</p>
+//                     <p className="text-[#cfcfcf] mb-4 text-left">Wanna chat? Or just share something cool?</p>
                     
 //                     <div className="form-group mb-4">
 //                       <label htmlFor="name" className="block text-sm text-[#E84A4A] uppercase mb-2">
@@ -458,7 +458,7 @@
 //                 </div>
 //                 <div className='flex flex-col gap-8 mt-4 px-2'>
 //                   <div className="text-[14px]">
-//                     <p className="text-[#7A7A7A]">
+//                     <p className="text-[#cfcfcf]">
 //                       {navItem === 'about' && 'Discover who I am, my journey, and what drives my passion for technology and creativity.'}
 //                       {navItem === 'experience' && 'Explore my professional background, skills, and the roles that have shaped my expertise.'}
 //                       {navItem === 'projects' && 'Browse my latest projects, showcasing my work in web development, design, and technology.'}
@@ -478,7 +478,7 @@
 //               active quest
 //               <img src={union} alt='union' loading='lazy' className='ml-auto absolute bottom-[-4px] right-[-30px] z-10' />
 //             </div>
-//             <div className='d1 text-[#7A7A7A] px-2'>the react skill-up line</div>
+//             <div className='d1 text-[#cfcfcf] px-2'>the react skill-up line</div>
 //             <div className='flex flex-col gap-8 mt-4 px-2'>
 //               <div className=''>
 //                 <p className='letter-spacing-10 uppercase'>quest name</p>
@@ -486,7 +486,7 @@
 //               </div>
 //               <div className="text-[14px]">
 //                 <h5>GOAL</h5>
-//                 <p className="text-[#7A7A7A]">
+//                 <p className="text-[#cfcfcf]">
 //                   Implement a fully functional dashboard for analytics and content management. 
 //                   Use charts to represent real-time data and implement CRUD (Create, Read, Update, Delete) functionality 
 //                   for seamless content management.
@@ -538,11 +538,11 @@
 //     className="mx-auto w-[80%] md:w-[50%] rounded-lg shadow-lg"
 //   />
 
-//   <div className="flex flex-col justify-center text-[#7A7A7A] mt-4 space-y-3 px-4">
-//   <p className="text-[#7A7A7A] mt-4">
+//   <div className="flex flex-col justify-center text-[#cfcfcf] mt-4 space-y-3 px-4">
+//   <p className="text-[#cfcfcf] mt-4">
 //   I am a proactive and detail-oriented web developer and software engineer with expertise in front-end and back-end technologies, including React.js, Python, TypeScript, and Flutter. I specialize in building modern, responsive user interfaces using frameworks like Tailwind CSS and Redux, while optimizing performance and integrating secure web practices.
 // </p>
-// <p className="text-[#7A7A7A] mt-2">
+// <p className="text-[#cfcfcf] mt-2">
 //   With experience in database management (MongoDB, PostgreSQL), RESTful APIs, and version control (Git, GitHub), I excel at solving complex engineering challenges and delivering scalable, maintainable applications. My strong communication and organizational skills ensure successful project delivery and effective cross-functional collaboration.
 // </p>
 //   </div>
@@ -551,7 +551,7 @@
 // {/* Small screen experience section */}
 // <div className="md:hidden fade-in px-4 mt-8">
 //   <h5 className='text-center text-[18px] text-white'>Experiences</h5>
-//   <p className='text-center opacity-70 text-[#7A7A7A]'>
+//   <p className='text-center opacity-70 text-[#cfcfcf]'>
 //     Explore my professional background, skills, and the roles that have shaped my expertise.
 //   </p>
 //   <div className="space-y-6 mt-4">
@@ -608,8 +608,8 @@
 //             />
 //             <div className="mt-4 text-center">
 //               <h3 className="text-[#E84A4A] font-semibold text-lg">{project.title}</h3>
-//               <p className="text-[#7A7A7A] text-sm uppercase">{project.category}</p>
-//               <p className="text-[#7A7A7A] text-xs mt-2">{project.description}</p>
+//               <p className="text-[#cfcfcf] text-sm uppercase">{project.category}</p>
+//               <p className="text-[#cfcfcf] text-xs mt-2">{project.description}</p>
 //               {project.link === "#" ? (
 //   <p
 //     className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
@@ -643,7 +643,7 @@
 //         <div className="flex justify-between items-center border-b border-[#E84A4A] pb-3 mb-4">
 //           <div>
 //             <h2 className="text-white text-lg uppercase font-bold">Open For Hire</h2>
-//             <p className="text-[#7A7A7A] text-xs">I would love to hear about your projects!</p>
+//             <p className="text-[#cfcfcf] text-xs">I would love to hear about your projects!</p>
 //           </div>
 //         </div>
 
@@ -877,7 +877,7 @@ function Home() {
               className="fade-in hidden md:flex flex-col w-full h-full"
             >
               <h5 className="text-white text-[18px] text-center">WELCOME TO MY PERSONAL WEBSITE.</h5>
-              <p className="text-[#7A7A7A] mt-4 text-center">
+              <p className="text-[#cfcfcf] mt-4 text-center">
                 I have created this website to feel like a game/sci-fi interface. All text inside
                 tries to reflect this.
               </p>
@@ -897,7 +897,7 @@ function Home() {
                     WELCOME TO MY PERSONAL WEBSITE.
                   </h5>
                   <motion.p 
-                    className="text-[#7A7A7A] mt-4"
+                    className="text-[#cfcfcf] mt-4"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3 }}
@@ -905,7 +905,7 @@ function Home() {
                     I am a proactive and detail-oriented web developer and software engineer with expertise in front-end and back-end technologies, including React.js, Python, TypeScript, and Flutter.
                   </motion.p>
                   <motion.p 
-                    className="text-[#7A7A7A] mt-2"
+                    className="text-[#cfcfcf] mt-2"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5 }}
@@ -930,7 +930,7 @@ function Home() {
               className="hidden md:block fade-in"
             >
               <h5 className='text-center text-[18px]'>Experience</h5>
-              <p className='text-center opacity-70 text-[#7A7A7A]'>
+              <p className='text-center opacity-70 text-[#cfcfcf]'>
                 Explore my professional background, skills, and the roles that have shaped my expertise.
               </p>
               <div className="space-y-6 mt-6">
@@ -1001,8 +1001,8 @@ function Home() {
                         />
                         <div className="mt-4 text-center">
                           <h3 className="text-[#E84A4A] font-semibold text-lg">{project.title}</h3>
-                          <p className="text-[#7A7A7A] text-sm uppercase">{project.category}</p>
-                          <p className="text-[#7A7A7A] text-xs mt-2">{project.description}</p>
+                          <p className="text-[#cfcfcf] text-sm uppercase">{project.category}</p>
+                          <p className="text-[#cfcfcf] text-xs mt-2">{project.description}</p>
                           {project.link === "#" ? (
                             <motion.p
                               className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black"
@@ -1057,7 +1057,7 @@ function Home() {
                   transition={{ delay: 0.3 }}
                 >
                   <h2 className="text-[18px] mb-1 uppercase text-left">Connect with me</h2>
-                  <p className="text-[#7A7A7A] mb-4 text-left">Wanna chat? Or just share something cool?</p>
+                  <p className="text-[#cfcfcf] mb-4 text-left">Wanna chat? Or just share something cool?</p>
                   
                   <motion.div 
                     className="form-group mb-4"
@@ -1317,7 +1317,7 @@ function Home() {
                 </div>
                 <div className='flex flex-col gap-8 mt-4 px-2'>
                   <div className="text-[14px]">
-                    <p className="text-[#7A7A7A]">
+                    <p className="text-[#cfcfcf]">
                       {navItem === 'about' && 'Discover who I am, my journey, and what drives my passion for technology and creativity.'}
                       {navItem === 'experience' && 'Explore my professional background, skills, and the roles that have shaped my expertise.'}
                       {navItem === 'projects' && 'Browse my latest projects, showcasing my work in web development, design, and technology.'}
@@ -1342,7 +1342,7 @@ function Home() {
               active quest
               <img src={union} alt='union' loading='lazy' className='ml-auto absolute bottom-[-4px] right-[-30px] z-10' />
             </div>
-            <div className='d1 text-[#7A7A7A] px-2'>the react skill-up line</div>
+            <div className='d1 text-[#cfcfcf] px-2'>the react skill-up line</div>
             <div className='flex flex-col gap-8 mt-4 px-2'>
               <div className=''>
                 <p className='letter-spacing-10 uppercase'>quest name</p>
@@ -1350,7 +1350,7 @@ function Home() {
               </div>
               <div className="text-[14px]">
                 <h5>GOAL</h5>
-                <p className="text-[#7A7A7A]">
+                <p className="text-[#cfcfcf]">
                   Implement a fully functional dashboard for analytics and content management. 
                   Use charts to represent real-time data and implement CRUD (Create, Read, Update, Delete) functionality 
                   for seamless content management.
@@ -1431,7 +1431,7 @@ function Home() {
               transition={{ type: "spring" }}
             />
 
-            <div className="flex flex-col justify-center text-[#7A7A7A] mt-4 space-y-3 px-4">
+            <div className="flex flex-col justify-center text-[#cfcfcf] mt-4 space-y-3 px-4">
               <p>
                 I am a proactive and detail-oriented web developer and software engineer with expertise in front-end and back-end technologies.
               </p>
@@ -1449,7 +1449,7 @@ function Home() {
             transition={{ delay: 0.8 }}
           >
             <h5 className='text-center text-[18px] text-white'>Experiences</h5>
-            <p className='text-center opacity-70 text-[#7A7A7A]'>
+            <p className='text-center opacity-70 text-[#cfcfcf]'>
               Explore my professional background, skills, and the roles that have shaped my expertise.
             </p>
             <div className="space-y-6 mt-4">
@@ -1511,8 +1511,8 @@ function Home() {
                       />
                       <div className="mt-4 text-center">
                         <h3 className="text-[#E84A4A] font-semibold text-lg">{project.title}</h3>
-                        <p className="text-[#7A7A7A] text-sm uppercase">{project.category}</p>
-                        <p className="text-[#7A7A7A] text-xs mt-2">{project.description}</p>
+                        <p className="text-[#cfcfcf] text-sm uppercase">{project.category}</p>
+                        <p className="text-[#cfcfcf] text-xs mt-2">{project.description}</p>
                         {project.link === "#" ? (
                           <p className="mt-4 inline-block border border-red-500 px-6 py-2 text-red-400 text-sm tracking-wide uppercase transition-colors duration-300 hover:bg-red-500 hover:text-black">
                             Unavailable
@@ -1546,7 +1546,7 @@ function Home() {
               <div className="flex justify-between items-center border-b border-[#E84A4A] pb-3 mb-4">
                 <div>
                   <h2 className="text-white text-lg uppercase font-bold">Open For Hire</h2>
-                  <p className="text-[#7A7A7A] text-xs">I would love to hear about your projects!</p>
+                  <p className="text-[#cfcfcf] text-xs">I would love to hear about your projects!</p>
                 </div>
               </div>
 
