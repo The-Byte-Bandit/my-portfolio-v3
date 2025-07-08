@@ -13,6 +13,8 @@ import ulearn from '../assets/images/ulearn.png'
 import viel from '../assets/images/viel.png'
 import m2l from '../assets/images/m2l.png'
 import truescan from '../assets/images/truescan.png'
+import styleai from '../assets/images/styleai.jpeg'
+import curecode from '../assets/images/curecode.png'
 
 
 export {
@@ -31,4 +33,6 @@ export {
     brightspace,
     m2l,
     truescan,
+    styleai,
+    curecode,
 }

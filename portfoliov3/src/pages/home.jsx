@@ -707,7 +707,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { union, viel, ulearn, swiphr, brightspace, bg, m2l, scifi, truescan,  f2, linkedIn, twitter, instagram, monitor } from '../constants/constant';
+import { union, viel, ulearn, swiphr, brightspace, bg, m2l, scifi, truescan,  f2, linkedIn, twitter, instagram, monitor, styleai,curecode } from '../constants/constant';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -715,6 +715,22 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const projects = [
+    {
+    title: "StyleAI",
+    category: "React Website",
+    description: "An AI powered fashion assistant",
+    image: styleai,
+    link: "#",
+    date: "Published 1 month ago",
+  },
+  {
+    title: "Curecode",
+    category: "React Website",
+    description: "An AI powered therapist",
+    image: curecode,
+    link: "#",
+    date: "Published 1 month ago",
+  },
   {
     title: "TrueScan AI",
     category: "React Website",
@@ -737,7 +753,7 @@ const projects = [
     description: "UI for crypto and gift card trading.",
     image: viel,
     link: "#",
-    date: "Published 5 months ago",
+    date: "Published 7 months ago",
   },
   {
     title: "Brightspace",
@@ -745,7 +761,7 @@ const projects = [
     description: "Landing page for a retirement firm.",
     image: brightspace,
     link: "https://bright-space.vercel.app/",
-    date: "Published 7 months ago",
+    date: "Published 9 months ago",
   },
   {
     title: "Ulearn",
@@ -753,7 +769,7 @@ const projects = [
     description: "Mockup for an e-learning platform.",
     image: ulearn,
     link: "https://ulearn-omega.vercel.app/",
-    date: "Published 6 months ago",
+    date: "Published 8 months ago",
   },
   {
     title: "Men2leader Dashboard",
@@ -761,7 +777,7 @@ const projects = [
     description: "Responsive dashboard for analytics and content.",
     image: m2l,
     link: "https://men2leaders.vercel.app/",
-    date: "Published 6 months ago",
+    date: "Published 8 months ago",
   },
 ];
 
@@ -1158,8 +1174,8 @@ function Home() {
         }
         .dot {
           position: absolute;
-          width: 8px;
-          height: 8px;
+          width: 3px;
+          height: 3px;
           background-color: red;
           border-radius: 50%;
           box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
